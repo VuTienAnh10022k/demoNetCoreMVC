@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\demoNetCoreMVC\\DemoMVC.csproj": {}
+    "C:\\Users\\user\\Desktop\\demoMVC\\DemoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\demoNetCoreMVC\\DemoMVC.csproj": {
+    "C:\\Users\\user\\Desktop\\demoMVC\\DemoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\demoNetCoreMVC\\DemoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\demoMVC\\DemoMVC.csproj",
         "projectName": "DemoMVC",
-        "projectPath": "C:\\Users\\user\\Desktop\\demoNetCoreMVC\\DemoMVC.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\demoMVC\\DemoMVC.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\demoNetCoreMVC\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\demoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
